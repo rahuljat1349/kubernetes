@@ -1,0 +1,16 @@
+# apiVersion: v1
+# kind: ConfigMap
+# metadata:
+#   name: backend-config
+# data:
+#   cache_size: "200"
+#   payment_gateway_url: "paymentUrl"
+#   max_cart_items: "50"
+#   session_timeout: "3600"
+# ---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: dotfile-secret
+data:
+  .env: "REFUQUJBU0VfVVJMPXBvc3RncmVzOi8vcHJvZC1kYXRhYmFzZS11cmwKQ0FDSEVfU0laRT0iMTAiClBBWU1FTlRfR0FURVdBWV9VUkw9YXBpLnJhem9ycGF5LmNvbQpNQVhfQ0FSVF9JVEVNUz0iNTAiClNFU1NJT05fVElNRU9VVD0iMzYwMCI="
